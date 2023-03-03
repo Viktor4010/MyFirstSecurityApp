@@ -35,6 +35,8 @@ public class Person {
     @Column(name = "password")
     private String password;
 
+    @Column(name = "role")
+    private String role;
 
     public Person(String username, int yearOfBirth) {
         this.username = username;
